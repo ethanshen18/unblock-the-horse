@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Unblock The Horse</title>
+    <link rel="stylesheet" href="unblock-the-horse.css"> 
+	<script src="https://apis.google.com/js/platform.js" async defer></script>
+	<meta name="google-signin-client_id" content="338586807136-jpv5mt8cuc1gv7160cru8d8hhccmhh1v.apps.googleusercontent.com">
+</head>
+<body>
+<div id="section1">
+    <div id="button1"><img id="profile" src="images/head.jpg" alt="profile" onclick="signOut();" title="Sign Out"> <span id="userName">GUEST</span></div >
+	<div id="button2" onclick="language()">ENG</div >
+	<div id="button3" onclick="instructions()">HELP</div >
+</div>
+
+<div id="logIn">
+    <div id="title">Unblock The Horse</div>
+    <div id="guest" onclick="hideLogIn()">Continue As Guest</div>
+    <div id="google" class="g-signin2" data-onsuccess="onSignIn"></div>
+</div>
+
+<div id="win">CONGRATULATIONS</div>
+
+<div id="bg"></div>
+
+<div id="lang"><div id="engButton" onclick="english()">ENGLISH</div><div id="freButton" onclick="french()">FRENCH</div></div>
+
+<div id="help">
+<br><br><span id="obj">Objective: Move the horse to the right side</span><br><br><br>
+<span id="ins">Click and drag to move the blocks. Touch and move on mobile devices. Blocks can only move along their own orientation, the horse only moves horizontally.</span>
+<img id="helpPic" src="images/instruction.png" alt="Instruction">
+</div>
+
+<div id="frame"></div>
+
+<div id="section2">
+    <div id="area1"><div id="previous" title="Previous Level" onclick="previousLevel()"></div><div id="levelCounter">LEVEL</div><div id="next" title="Next Level" onclick="game()"></div></div >
+	<div id="area2">MOVES</div >
+	<div id="area3" onclick="restart()" title="Restart Level"><span id="minutes">00</span>:<span id="seconds">00</span> &#8635;</div >
+</div>
+<script src="unblock-the-horse.js"></script>
+</body>
+</html>
