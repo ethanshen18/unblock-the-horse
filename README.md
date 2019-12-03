@@ -1,9 +1,9 @@
-# JavaScript Game Project "Unblock The Horse"
+# Unblock The Horse
+## JavaScript Game Project
 
 This is a static web game project using JavaScript, HTML and CSS. It demonstrates sophisticated use of arrays and matrices to detect colliding objects. 
 
-
-Highlight Functionalities:
+## Highlight Functionalities
 
 Collision Detection
 
@@ -17,7 +17,7 @@ Levels
 
 Restart
 
-
+## Demo
 
 Please visit the link below for an interactive project showcase that demonstrates the functionality of this website.
 
