@@ -16,9 +16,3 @@ Language Options
 Levels
 
 Restart
-
-## Demo
-
-Please visit the link below for an interactive project showcase that demonstrates the functionality of this website.
-
-https://ethanshen18.wixsite.com/projects
