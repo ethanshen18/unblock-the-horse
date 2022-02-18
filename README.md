@@ -3,7 +3,7 @@
 
 This is a static web game project using JavaScript, HTML and CSS. It demonstrates sophisticated use of arrays and matrices to detect colliding objects. 
 
-## Highlight Functionalities
+## Highlight Features
 
 Collision Detection
 
